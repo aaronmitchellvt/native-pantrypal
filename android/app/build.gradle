@@ -96,6 +96,7 @@ android {
     namespace "com.coolnativeproject"
     defaultConfig {
         applicationId "com.coolnativeproject"
+        manifestPlaceholders = [auth0Domain: "**DOMAIN**", auth0Scheme: "dev-m70l70v0jswsgfmk.us.auth0.com"]
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -9,8 +9,8 @@ const HomeScreen = () => {
     <View>
       <Text style={tw`bg-red-600 text-2xl`}>I am the home screen</Text>
       <Button 
-        title="Chat" 
-        onPress={() => navigation.navigate("Chat")} 
+        title="Chat"
+        onPress={() => navigation.navigate("Chat")}
         />
     </View>
   );
